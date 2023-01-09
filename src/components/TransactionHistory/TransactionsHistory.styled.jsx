@@ -4,8 +4,8 @@ export const TransactionsHistory = styled.table`
 border: 2px solid black;
 border-collapse: collapse;
 padding: 10px;
-display: table-header-group;
-height: 70vw;
+display: table-caption;
+table-layout: fixed;
 `
 
 export const TableHead = styled.thead`
