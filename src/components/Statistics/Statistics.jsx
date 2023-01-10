@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import { StatList, StatListItem, Label } from './Statistics.styled';
+import { StatList, StatListItem, Label, Title } from './Statistics.styled';
 import { getRandomColor } from 'Utils/getrandomColor';
 
 export const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">
-      {title && <h2 className="title">Upload stats</h2>}
+      {title && <Title className="title">Upload stats</Title>}
 
       <StatList>
         {stats.map(stat => (

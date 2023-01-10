@@ -8,6 +8,8 @@ export const Item = styled.li`
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 10px 5px 5px grey;
+  width: 250px;
 `;
 
 export const Status = styled.span`

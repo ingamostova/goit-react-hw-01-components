@@ -20,5 +20,13 @@ border: 2px solid black;
 
 export const ItemInfo = styled.td`
 padding: 8px;
+`
 
+export const Row = styled.tr`
+:nth-child(odd) {
+    background-color: #ff33cc;
+  };
+  :nth-child(even) {
+    background-color: #e495e4;
+  };
 `

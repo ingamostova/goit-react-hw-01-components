@@ -2,20 +2,29 @@ import styled from "@emotion/styled";
 
 export const StatList = styled.ul`
 display: flex;
-gap: 10px;
+gap: 0px;
 justify-content: center;
 align-items: center;
-flex-direction: column;
 `
 
 export const StatListItem = styled.li`
 border: 1px solid black;
-padding: 5px;
-border-radius: 5px;
+padding: 10px;
+width: 140px;
+height: auto;
+text-align: center;
 `
 
 export const Label = styled.span`
 colpr: black;
-font-size: 20px;
+font-size: 30px;
 color: #FFF;
+`
+
+export const Title = styled.h2`
+text-transform: uppercase;
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+font-size: 40px;
 `
